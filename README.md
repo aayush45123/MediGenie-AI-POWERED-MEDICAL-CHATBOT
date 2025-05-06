@@ -57,25 +57,27 @@ Confirm your appointment
 
 Project Structure
 MINIPROJECT/
-├── .vscode/            # VS Code configuration
-├── backend/            # Backend Python files
-│   ├── __pycache__/    # Python cache
-│   ├── app.py          # Main Flask application
-│   ├── responses.py    # Response handling
-│   └── temp_audio.wav  # Temporary audio file
-├── frontend/           # Frontend files
-│   ├── aboutus/        # About us page
-│   ├── assets/         # Static assets
-│   ├── chatbot/        # Chatbot interface
-│   ├── doctor/         # Doctor section
-│   ├── doctors_lists/  # List of doctors
-│   ├── doctors_profile/# Doctor profiles
-│   ├── doctorsimg/     # Doctor images
-│   ├── homepage/       # Homepage
-│   ├── login/          # Login page
-│   ├── index.html      # Main HTML file
-│   ├── script.js       # JavaScript
-│   └── style.css       # CSS styling
+├── .vscode/                  # VS Code configuration
+├── backend/                  # Backend Python files
+│   ├── __pycache__/          # Python cache
+│   ├── app.py                # Main Flask application
+│   ├── responses.py          # Response handling
+│   └── temp_audio.wav        # Temporary audio file
+└── frontend/                 # Frontend files
+    ├── aboutus/              # About us page
+    ├── assets/               # Static assets
+    ├── chatbot/              # Chatbot interface
+    ├── doctor/               # Doctor section
+    ├── doctors_lists/        # List of doctors
+    ├── doctors_profile/      # Doctor profiles
+    ├── doctorsimg/           # Doctor images
+    ├── homepage/             # Homepage
+    ├── login/                # Login page
+    ├── index.html            # Main HTML file
+    ├── script.js             # JavaScript
+    └── style.css             # CSS styling
+
+
 Screenshots
 
 ![image](https://github.com/user-attachments/assets/2e8af5b2-0b30-4de9-a21f-b43dc15b32a8)
