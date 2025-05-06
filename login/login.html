@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediGenie - Login & Register</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="form-container">
+            <div class="form-box active" id="loginBox">
+                <h2>Login</h2>
+                <form id="loginForm">
+                    <div class="input-group">
+                        <select id="loginRole" required>
+                            <option value="">Select Role</option>
+                            <option value="patient">Patient</option>
+                            <option value="doctor">Doctor</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="loginEmail" placeholder="Email" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="password" id="loginPassword" placeholder="Password" required>
+                    </div>
+                    <button type="submit" class="btn">Login</button>
+                    <p>Don't have an account? <a onclick="toggleForms()">Register</a></p>
+                </form>
+            </div>
+            
+            <div class="form-box" id="registerBox">
+                <h2>Register</h2>
+                <form id="registerForm">
+                    <div class="input-group">
+                        <input type="text" id="registerName" placeholder="Full Name" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="registerEmail" placeholder="Email" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="password" id="registerPassword" placeholder="Password" required>
+                    </div>
+                    <div class="input-group">
+                        <select id="userRole" required>
+                            <option value="">Select Role</option>
+                            <option value="patient">Patient</option>
+                            <option value="doctor">Doctor</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="phoneNumber" placeholder="Phone Number" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="address" placeholder="Address" required>
+                    </div>
+                    <button type="submit" class="btn">Register</button>
+                    <p>Already have an account? <a onclick="toggleForms()">Login</a></p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="./login.js"></script>
+</body>
+</html>
